@@ -1,0 +1,14 @@
+/* Fuentes de Google */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+@import "tailwindcss";
+
+@layer base {
+    body {
+        @apply bg-amber-50 text-stone-800 font-sans;  /* Fondo crema y texto marrón oscuro */
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    h1, h2, h3 {
+        font-family: 'Playfair Display', serif;
+    }
+}
