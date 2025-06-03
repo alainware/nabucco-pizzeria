@@ -52,7 +52,7 @@ const PizzasPage = () => {
                             name={pizza.name}
                             price={pizza.price}
                             ingredients={pizza.ingredients}
-                            imageUrl="/pizza.jpg"
+                            imageUrl="pizza.jpg"
                         />
                     ))}
                 </div>
